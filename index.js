@@ -1,4 +1,4 @@
-const api_root="https://zlvqa748yd.execute-api.us-east-1.amazonaws.com/serverless-app-api-gat/"
+const api_root="https://80bweks3qf.execute-api.us-east-1.amazonaws.com/register/"
 function loadTable(){
     const xhttp = new XMLHttpRequest();
     xhttp.open("GET",api_root + "users");
